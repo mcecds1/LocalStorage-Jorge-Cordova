@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-div">
+            <img src="assets/logo.png" alt="Logo Hose Depot" class="logo-header">
+        </div>
+        <nav class="nav-header">
+            <a href="" class="link-header">Home</a>
+            <a href="" class="link-header">Blog</a>
+            <a href="" class="link-header">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="main-sect">
+            <div class="main-preset main-1">
+                <h1>Angular</h1>
+                <h2>¿Qué es Angular?</h2>
+                <p>Angular es un framework de desarrollo web de código abierto mantenido por Google, utilizado para crear aplicaciones web de una sola página (SPA) y aplicaciones web dinámicas. Está escrito en TypeScript, una extensión de JavaScript, y sigue el patrón de diseño Modelo-Vista-Controlador (MVC). Angular facilita la creación de aplicaciones web complejas y escalables. </p>
+            </div>
+            <div class="main-preset main-2">
+                <img src="assets/angular.png" alt="Imagen de Angular" class="img-angular">
+            </div>
+        </section>
+        <section class="loggin">
+            <form id="loginForm" class="loginFormclass">
+                <h2>Iniciar Sesión</h2>
+                <input type="text" id="username" placeholder="Ingresa tu Nombre" required value="Profe Marvin">
+                <button type="submit">Ingresar</button>
+            </form>
+    
+            <div id="welcomeMessage" class="hidden">
+                <h2 id="welcomeText"></h2>
+                <button id="logoutBtn">Cerrar sesión</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <img src="assets/logo.png" alt="" class="logo-footer">
+        <p>Hose Depot &copy;2025</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
